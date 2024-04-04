@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 1110px;
+        }
+       #a{
+        width: 500px;
+        height: 300px;
+        position: relative;
+        border: 2px solid red;
+       }
+       #b{
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        background-color: teal;
+       }
+       #c{
+
+        position: fixed;
+        right: 0px;
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        background-color: blue;
+       }
+       #d{
+        display: inline-block;
+
+        height: 100px;
+        width: 100px;
+        background-color: black;
+       }
+    </style>
+</head>
+<body>
+    <!-- static
+    1. relative: move w.r.t its last position , cannot leave its starting position.
+    2. absolute: leave its position, 
+    3. fixed: it always moves w.r.t to body
+ 
+    a. top
+    b. left
+    c. right
+    d. bottom
+-->
+
+<div id="a">
+    <div id="b"></div>
+    <div id="c"></div>
+    <div id="d"></div>
+</div>
+</body>
+</html>
