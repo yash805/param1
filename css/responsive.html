@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        display: flex;
+       }
+        #a{
+            width:70%;
+            background-color: teal;
+        }
+        #b{
+            background-color: lightsalmon;
+            width: 30%;
+        }
+        h1{
+            font-size: 70px;
+        }
+
+        @media screen and (max-width:768px){
+            #a{
+                width:50%;
+                background-color: blueviolet;
+            }
+            #b{
+                width: 50%;
+                background-color: aqua;
+            }
+        }
+        @media screen and (max-width:468px){
+            body{
+                display: block;
+            }
+            #a{
+                width: 100%;
+                background-color: brown;
+            }
+            #b{
+                width: 100%;
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="a">
+        <h1>hello</h1>
+    </div>
+    <div id="b">
+        <h1>Welcome</h1>
+    </div>
+</body>
+</html>
