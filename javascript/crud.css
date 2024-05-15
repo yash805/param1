@@ -1,0 +1,51 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.c{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+.fc{
+    margin-top: 20px;
+    width: 40vw;
+    border-radius: 10px;
+    height: 80vh;
+    padding:10px;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form button{
+    padding: 10px;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 8px;
+
+}
+form input{
+ padding: 10px;
+ border-radius: 8px;
+ border:1px solid gray
+}
+.add{
+    width: 100%;
+    padding: 10px 0px 0px 90px;
+}
+.add button{
+    padding: 10px;
+    background-color: lightcoral;
+    color: white;
+    border-radius: 8px;
+}
+table{
+    width: 100%;
+    margin-top:20px;
+    text-align:center;
+}

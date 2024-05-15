@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+// let car ={
+//     color:"red",
+//     company:"tata",
+//     model:2022,
+//     age:function(){
+//        return `i am here to buy ${this.color} ${this.company} ${this.model}`
+//     }
+// }
+// console.log(car["color"]);
+// console.log(car.color)
+// car.color="greem"
+// car.age = 23
+// console.log(car);
+
+
+// delete car.model
+// console.log(car);
+
+// console.log(car.age())
+
+
+// objects inside array
+
+// let arr = [
+//     {
+//         name:"sam",
+//         age:23  
+//     },
+//     {
+//         name:"yash",
+//         age: 20
+//     },
+//     {
+//         name:"rahul",
+//         age:30
+//     }
+// ]
+// for(let i=0;i<arr.length;i++){
+//     console.log(arr[i].name)
+// }
+
+
+
+
+// for in loop
+
+// let car ={
+//     color:"red",
+//     company:"tata",
+//     model:2020
+// }
+// for(let i in car){
+//     console.log(car[i]);
+// }
+
+
+// let obj = {
+//     a:1,
+//     b:2,
+//     c:"hii",
+//     d:4
+// }
+
+// let s=0
+// for(let i in obj){
+//     if(typeof obj[i] === 'number'){
+//        s+=obj[i]
+//     }
+// }
+// console.log(s)
+let obj1 ={a:2,b:2}
+let obj2 ={b:2,a:3}
+function a(obj1,obj2){
+
+for(let i in obj1){
+    if(obj1[i] !== obj2[i]){
+        console.log(obj1[i],obj2[i])
+        return false
+    }
+}
+for(let i in obj2){
+    if(obj1[i] !== obj2[i]){
+        return false
+    }
+}
+return true
+}
+
+console.log(a(obj1, obj2))
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

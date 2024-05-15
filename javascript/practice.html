@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div{
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(0, 255, 255, 0.679);
+        }
+
+        button{
+            border: none;
+            border-radius: 50%;
+            height: 30px;
+            width:30px;
+        }
+        #a{
+            background-color: yellow;
+        }
+        #b{
+            background-color: blueviolet;
+        }
+        #c{
+            background-color: lightcoral;
+        }
+    </style>
+  </head>
+  <body>
+    <div>
+        <button id="a" onclick="yellow()"></button>
+        <button id="b" onclick="blue()" ></button>
+        <button id="c" onclick="coral()"></button>
+    </div>
+
+    <script>
+
+      let a = document.querySelector("div");
+      function yellow(){
+         a.style.backgroundColor = "yellow";
+      }
+
+      function blue(){
+         a.style.backgroundColor = "blueviolet";
+      }   
+      
+      function coral(){
+         a.style.backgroundColor = "coral";
+      }
+
+
+    </script>
+  </body>
+</html>
